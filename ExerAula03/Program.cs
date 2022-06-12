@@ -10,11 +10,53 @@ namespace ExerAula03
     {
         static void Main(string[] args)
         {
-            Notas();
-            //MaiorValor();
-            //MediaAluno();
-            //AprovadoReprovado();
-            //AumentoSalario();
+            string continuar = "N";
+            do
+            {
+                Console.WriteLine("Escolha um exercício:");
+                int choice = Convert.ToInt32(Console.ReadLine());
+
+                switch (choice)
+                {
+                    case 1:
+                        Notas();
+                        Console.WriteLine("\nContinuar? (S/N)");
+                        continuar = Console.ReadLine();
+
+                        break;
+                    case 2:
+                        MaiorValor();
+                        Console.WriteLine("\nContinuar? (S/N)");
+                        continuar = Console.ReadLine();
+
+                        break;
+                    case 3:
+                        MediaAluno();
+                        Console.WriteLine("\nContinuar? (S/N)");
+                        continuar = Console.ReadLine();
+
+                        break;
+                    case 4:
+                        AprovadoReprovado();
+                        Console.WriteLine("\nContinuar? (S/N)");
+                        continuar = Console.ReadLine();
+
+                        break;
+                    case 5:
+                        AumentoSalario();
+                        Console.WriteLine("Continuar? (S/N)");
+                        continuar = Console.ReadLine();
+                        Console.ReadLine();
+
+                        break;
+                    default:
+                        Console.WriteLine("Valor inválido. Exercícios de 1 ao 5.");
+                        Console.WriteLine("Continuar? (S/N)");
+                        continuar = Console.ReadLine();
+                        break;
+                }
+
+            } while (continuar != "N");            
         }
 
         //Exercicio 01 

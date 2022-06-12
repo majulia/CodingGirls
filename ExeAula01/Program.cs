@@ -43,52 +43,77 @@ namespace ExeAula01
                     case 3:
                         Console.WriteLine("3 - Elabore um programa que mostre na tela uma letra de música que você gosta, o compositor e o gênero musical em linhas separadas.");
                         
-                        Console.WriteLine("Million Years Ago");
-                        Console.WriteLine("Composição: Adele, Greg Kurstin");
-                        Console.WriteLine("\nI only wanted to have fun");
-                        Console.WriteLine("Learning to fly, learning to run" +
-                            "\nI let my heart decide the way" +
-                            "\nWhen I was young" +
-                            "\nDeep down I must have always known" +
-                            "\nThat this would be inevitable" +
-                            "\nTo earn my stripes I'd have to pay" +
-                            "\nAnd bear my soul" +
-                            "\n" +
-                            "\nI know I'm not the only one" +
-                            "\nWho regrets the things they've done" +
-                            "\nSometimes I just feel it's only me" +
-                            "\nWho can't stand the reflection that they see" +
-                            "\nI wish I could live a little more" +
-                            "\nLook up to the sky, not just the floor" +
-                            "\nI feel like my life is flashing by" +
-                            "\nAnd all I can do is watch and cry" +
-                            "\nI miss the air, I miss my friends" +
-                            "\nI miss my mother; I miss it when" +
-                            "\nLife was a party to be thrown" +
-                            "\nBut that was a million years ago" +
-                            "\n" +
-                            "\nWhen I walk around all of the streets" +
-                            "\nWhere I grew up and found my feet" +
-                            "\nThey can't look me in the eye" +
-                            "\nIt's like they're scared of me" +
-                            "\nI try to think of things to say" +
-                            "\nLike a joke or a memory" +
-                            "\nBut they don't recognize me now" +
-                            "\nIn the light of day" +
-                            "\n" +
-                            "\nI know I'm not the only one" +
-                            "\nWho regrets the things they've done" +
-                            "\nSometimes I just feel it's only me" +
-                            "\nWho can't stand the reflection that they see" +
-                            "\nI wish I could live a little more" +
-                            "\nLook up to the sky, not just the floor" +
-                            "\nI feel like my life is flashing by" +
-                            "\nAnd all I can do is watch and cry" +
-                            "\nI miss the air, I miss my friends" +
-                            "\nI miss my mother; I miss it when" +
-                            "\nLife was a party to be thrown" +
-                            "\nBut that was a million years ago" +
-                            "\n");
+                        Console.WriteLine(@"
+The sky is a neighborhood - Foo Fighters");
+                        Console.WriteLine("Composição: Christopher Shiflett / David Eric Grohl / Nathan Mendel / Oliver Hawkins / Pat Smear / Rami Jaffee");
+                        Console.WriteLine(@"The sky is a neighborhood
+So keep it down
+The heart is a storybook
+A star burned out
+The sky is a neighborhood
+Don't make a sound
+Lights coming up ahead
+Don't look now
+
+The sky is a neighborhood
+The sky is a neighborhood
+Don't look now
+
+Oh, my dear, heaven is a big bang now
+Gotta get to sleep somehow
+Bangin' on the ceiling, bangin' on the ceiling
+Keep it down
+Oh, my dear, heaven is a big bang now
+Gotta get to sleep somehow
+Bangin' on the ceiling, bangin' on the ceiling
+Keep it down
+
+Mind is a battlefield
+All hope is gone
+Trouble to the right and left
+Whose side you're on?
+Thoughts like a minefield
+I'm a ticking bomb
+Maybe you should watch your step
+Don't get lost
+
+The sky is a neighborhood
+The sky is a neighborhood
+Don't get lost
+
+Oh, my dear, heaven is a big bang now
+Gotta get to sleep somehow
+Bangin' on the ceiling, bangin' on the ceiling
+Keep it down
+Oh, my dear, heaven is a big bang now
+Gotta get to sleep somehow
+Bangin' on the ceiling, bangin' on the ceiling
+Keep it down
+
+The sky is a neighborhood
+
+The heart is a storybook
+A star burned out
+Someone coming up ahead
+Don't look now
+
+Oh, my dear, heaven is a big bang now
+Gotta get to sleep somehow
+Bangin' on the ceiling, bangin' on the ceiling
+Keep it down
+Oh, my dear, heaven is a big bang now
+Gotta get to sleep somehow
+Bangin' on the ceiling, bangin' on the ceiling
+Keep it down
+
+The sky is a neighborhood
+(Oh, my dear, heaven is a big bang now
+Gotta get to sleep somehow)
+The sky is a neighborhood
+(Bangin' on the ceiling, bangin' on the ceiling
+Keep it down)
+
+The sky is a neighborhood");
 
                         Console.WriteLine("Continuar? (S/N)");
                         continuar = Console.ReadLine();
