@@ -126,14 +126,14 @@ namespace ExerAula04
             Console.WriteLine("\nPares: ");
             foreach (int num in pares)
             {   if(num != 0)
-                Console.WriteLine(num);
+                Console.Write(num + " ");
             }
 
             Console.WriteLine("\nImpares:");
             foreach (int num in impares)
             {                
                     if (num != 0)
-                    Console.WriteLine(num);
+                    Console.Write(num + " ");
             }
 
         }
